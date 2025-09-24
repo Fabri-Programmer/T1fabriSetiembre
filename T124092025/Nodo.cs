@@ -9,10 +9,10 @@ namespace T124092025
     internal class Nodo
     {
 
-        private int dato;
+        private double dato;
         private Nodo sgt;
 
-        public int Dato { get => dato; set => dato = value; }
+        public double Dato { get => dato; set => dato = value; }
         internal Nodo Sgt { get => sgt; set => sgt = value; }
     }
 }

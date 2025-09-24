@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,28 +11,45 @@ namespace T124092025
 {
     internal class Lista
     {
-
         Nodo Primero = null;
         Nodo Ultimo = null;
 
-        public void Insertar(int valor)
+        public void Insertar(double valor)
         {
             Nodo nuevo = new Nodo();
             nuevo.Dato = valor;
 
-            if(Primero == null)
+            Nodo Validacion = Primero;
+
+            while(Validacion != null)
             {
-                Primero = nuevo;
-                Ultimo = nuevo;
-                Ultimo.Sgt = null;
+                if(Validacion.Dato == valor)
+                {
+                    MessageBox.Show("Ya existe, ingresa otro dato");
+                    return;
+                }
+                Validacion = Validacion.Sgt;
+            }
+
+            if(valor > 0)
+            {
+                if (Primero == null)
+                {
+                    Primero = nuevo;
+                    Ultimo = nuevo;
+                    Ultimo.Sgt = null;
+                }
+                else
+                {
+                    Ultimo.Sgt = nuevo;
+                    Ultimo = nuevo;
+                    Ultimo.Sgt = null;
+                }
             }
             else
             {
-                Ultimo.Sgt = nuevo;
-                Ultimo = nuevo;
-                Ultimo.Sgt = null;
+                MessageBox.Show("Ingrese numero mayor a 0");
             }
-
         }
         public void Mostrar(ListBox lista)
         {
@@ -42,7 +60,6 @@ namespace T124092025
                 lista.Items.Add(Actualizar.Dato);
                 Actualizar = Actualizar.Sgt;
             }
-
         }
 
         public void Buscar(int valor)
@@ -55,31 +72,43 @@ namespace T124092025
                 if(Actualizar.Dato == valor)
                 {
                     Encontrado = true;
-                    MessageBox.Show("Se encontro en la lista");
+                    MessageBox.Show("Encontrado");
                 }
                 Actualizar = Actualizar.Sgt;
             }
             if(Encontrado == false)
             {
-                MessageBox.Show("No se encontro en la lista");
+                MessageBox.Show("No encontrado");
             }
         }
-        public void Modificar(int valor1 , int valor2)
+        public void Modificar(int valor1, int valor2)
         {
             Nodo Actualizar = Primero;
-            bool encontrar = false;
-            while(Actualizar != null)
+            bool encontrado = false;
+            Nodo Validacion = Primero;
+            while(Validacion != null)
+            {
+                if (Validacion.Dato == valor2)
+                {
+                MessageBox.Show("Ya existe, ingresa otro dato");
+                return;
+                }
+            Validacion = Validacion.Sgt;
+            }
+
+            while (Actualizar != null)
             {
                 if(Actualizar.Dato == valor1)
                 {
-                    encontrar = true;
+                    encontrado = true;
                     Actualizar.Dato = valor2;
+                    MessageBox.Show($"El Valor: {valor1} Fue modifico por: {valor2} !!  ");
                 }
                 Actualizar = Actualizar.Sgt;
             }
-            if(encontrar == false)
+            if(encontrado == false)
             {
-                MessageBox.Show("No hay numero para modificar");
+                MessageBox.Show("Valor no encontrado para modificar");
             }
         }
 
@@ -92,46 +121,36 @@ namespace T124092025
             {
                 if(Actualizar.Dato == valor)
                 {
-                    if(Actualizar == Primero)
+                    if (Actualizar == Primero)
                     {
-                        Primero = Primero.Sgt; 
-                        //Mueve el puntero Primero al siguiente nodo.
-
-                        //Básicamente, el segundo nodo pasa a ser el nuevo inicio de la lista.
+                        Primero = Primero.Sgt;
                     }
                     else if(Actualizar == Ultimo)
                     {
                         Anterior.Sgt = null;
                         Ultimo = Anterior;
-                       // El nodo anterior ahora apunta a null(marcando el fin de la lista).
-                        //Ultimo se actualiza para que sea el nodo anterior.
                     }
                     else
                     {
                         Anterior.Sgt = Actualizar.Sgt;
-                       
-                        //El nodo anterior salta al nodo que sigue después del actual.
-                        //De esta forma, el nodo actual queda fuera de la cadena.
                     }
                     
                 }
                 Anterior = Actualizar;
                 Actualizar = Actualizar.Sgt;
             }
+
         }
         public void Contar()
         {
             Nodo Actualizar = Primero;
             int cont = 0;
-
-            while(Actualizar != null)
+            while( Actualizar != null )
             {
                 cont++;
                 Actualizar = Actualizar.Sgt;
-
             }
-            MessageBox.Show("Elementos contados: " + cont);
-
+            MessageBox.Show($"Valores encontrados: {cont} ");
         }
     }
 }

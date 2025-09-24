@@ -39,6 +39,17 @@
             this.Beliminar = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.Bcontar = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.BDinsertar = new System.Windows.Forms.Button();
+            this.BDmostrar = new System.Windows.Forms.Button();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.BDmodificar = new System.Windows.Forms.Button();
+            this.BDcontar = new System.Windows.Forms.Button();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.BDbuscar = new System.Windows.Forms.Button();
+            this.BDeliminar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listBox1
@@ -141,11 +152,125 @@
             this.Bcontar.UseVisualStyleBackColor = true;
             this.Bcontar.Click += new System.EventHandler(this.Bcontar_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(910, 32);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(295, 29);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "LISTA ENLAZADA DOBLE";
+            // 
+            // listBox2
+            // 
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.ItemHeight = 16;
+            this.listBox2.Location = new System.Drawing.Point(938, 99);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.Size = new System.Drawing.Size(212, 244);
+            this.listBox2.TabIndex = 12;
+            // 
+            // BDinsertar
+            // 
+            this.BDinsertar.Location = new System.Drawing.Point(1214, 108);
+            this.BDinsertar.Name = "BDinsertar";
+            this.BDinsertar.Size = new System.Drawing.Size(109, 23);
+            this.BDinsertar.TabIndex = 13;
+            this.BDinsertar.Text = "Insertar Inicio";
+            this.BDinsertar.UseVisualStyleBackColor = true;
+            this.BDinsertar.Click += new System.EventHandler(this.BDinsertar_Click);
+            // 
+            // BDmostrar
+            // 
+            this.BDmostrar.Location = new System.Drawing.Point(1214, 200);
+            this.BDmostrar.Name = "BDmostrar";
+            this.BDmostrar.Size = new System.Drawing.Size(109, 23);
+            this.BDmostrar.TabIndex = 14;
+            this.BDmostrar.Text = "Mostrar";
+            this.BDmostrar.UseVisualStyleBackColor = true;
+            this.BDmostrar.Click += new System.EventHandler(this.BDmostrar_Click);
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(1350, 124);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(100, 22);
+            this.textBox4.TabIndex = 15;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1214, 148);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(109, 23);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "Insertar Final";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // BDmodificar
+            // 
+            this.BDmodificar.Location = new System.Drawing.Point(1214, 246);
+            this.BDmodificar.Name = "BDmodificar";
+            this.BDmodificar.Size = new System.Drawing.Size(109, 23);
+            this.BDmodificar.TabIndex = 17;
+            this.BDmodificar.Text = "Modificar";
+            this.BDmodificar.UseVisualStyleBackColor = true;
+            this.BDmodificar.Click += new System.EventHandler(this.BDmodificar_Click);
+            // 
+            // BDcontar
+            // 
+            this.BDcontar.Location = new System.Drawing.Point(1214, 288);
+            this.BDcontar.Name = "BDcontar";
+            this.BDcontar.Size = new System.Drawing.Size(109, 22);
+            this.BDcontar.TabIndex = 18;
+            this.BDcontar.Text = "Contar";
+            this.BDcontar.UseVisualStyleBackColor = true;
+            this.BDcontar.Click += new System.EventHandler(this.BDcontar_Click);
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(1350, 246);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(100, 22);
+            this.textBox5.TabIndex = 20;
+            // 
+            // BDbuscar
+            // 
+            this.BDbuscar.Location = new System.Drawing.Point(1214, 330);
+            this.BDbuscar.Name = "BDbuscar";
+            this.BDbuscar.Size = new System.Drawing.Size(109, 22);
+            this.BDbuscar.TabIndex = 19;
+            this.BDbuscar.Text = "Buscar";
+            this.BDbuscar.UseVisualStyleBackColor = true;
+            this.BDbuscar.Click += new System.EventHandler(this.BDbuscar_Click);
+            // 
+            // BDeliminar
+            // 
+            this.BDeliminar.Location = new System.Drawing.Point(1214, 371);
+            this.BDeliminar.Name = "BDeliminar";
+            this.BDeliminar.Size = new System.Drawing.Size(109, 22);
+            this.BDeliminar.TabIndex = 21;
+            this.BDeliminar.Text = "Eliminar";
+            this.BDeliminar.UseVisualStyleBackColor = true;
+            this.BDeliminar.Click += new System.EventHandler(this.BDeliminar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1489, 546);
+            this.Controls.Add(this.BDeliminar);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.BDbuscar);
+            this.Controls.Add(this.BDcontar);
+            this.Controls.Add(this.BDmodificar);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.BDmostrar);
+            this.Controls.Add(this.BDinsertar);
+            this.Controls.Add(this.listBox2);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.Bcontar);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.Beliminar);
@@ -177,6 +302,17 @@
         private System.Windows.Forms.Button Beliminar;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button Bcontar;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ListBox listBox2;
+        private System.Windows.Forms.Button BDinsertar;
+        private System.Windows.Forms.Button BDmostrar;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BDmodificar;
+        private System.Windows.Forms.Button BDcontar;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Button BDbuscar;
+        private System.Windows.Forms.Button BDeliminar;
     }
 }
 

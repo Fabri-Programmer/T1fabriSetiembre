@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fabri_moiv2az\\Downloads\\ProgramacionPracticas\\Semana1\\SegundoIntentoConString\\T124092025\\",
+  "WorkspaceRootPath": "C:\\Users\\fabri_moiv2az\\Downloads\\T124092025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{146C4ED1-094D-4957-9DA5-C7DA459323E7}|T124092025\\T124092025.csproj|c:\\users\\fabri_moiv2az\\downloads\\programacionpracticas\\semana1\\segundointentoconstring\\t124092025\\t124092025\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{146C4ED1-094D-4957-9DA5-C7DA459323E7}|T124092025\\T124092025.csproj|C:\\Users\\fabri_moiv2az\\Downloads\\T124092025\\t124092025\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{146C4ED1-094D-4957-9DA5-C7DA459323E7}|T124092025\\T124092025.csproj|solutionrelative:t124092025\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{146C4ED1-094D-4957-9DA5-C7DA459323E7}|T124092025\\T124092025.csproj|c:\\users\\fabri_moiv2az\\downloads\\programacionpracticas\\semana1\\segundointentoconstring\\t124092025\\t124092025\\lista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{146C4ED1-094D-4957-9DA5-C7DA459323E7}|T124092025\\T124092025.csproj|c:\\users\\fabri_moiv2az\\downloads\\t124092025\\t124092025\\nododoble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{146C4ED1-094D-4957-9DA5-C7DA459323E7}|T124092025\\T124092025.csproj|solutionrelative:t124092025\\nododoble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{146C4ED1-094D-4957-9DA5-C7DA459323E7}|T124092025\\T124092025.csproj|C:\\Users\\fabri_moiv2az\\Downloads\\T124092025\\t124092025\\clasedoble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{146C4ED1-094D-4957-9DA5-C7DA459323E7}|T124092025\\T124092025.csproj|solutionrelative:t124092025\\clasedoble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{146C4ED1-094D-4957-9DA5-C7DA459323E7}|T124092025\\T124092025.csproj|c:\\users\\fabri_moiv2az\\downloads\\t124092025\\t124092025\\lista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{146C4ED1-094D-4957-9DA5-C7DA459323E7}|T124092025\\T124092025.csproj|solutionrelative:t124092025\\lista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{146C4ED1-094D-4957-9DA5-C7DA459323E7}|T124092025\\T124092025.csproj|c:\\users\\fabri_moiv2az\\downloads\\programacionpracticas\\semana1\\segundointentoconstring\\t124092025\\t124092025\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{146C4ED1-094D-4957-9DA5-C7DA459323E7}|T124092025\\T124092025.csproj|solutionrelative:t124092025\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{146C4ED1-094D-4957-9DA5-C7DA459323E7}|T124092025\\T124092025.csproj|c:\\users\\fabri_moiv2az\\downloads\\t124092025\\t124092025\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{146C4ED1-094D-4957-9DA5-C7DA459323E7}|T124092025\\T124092025.csproj|solutionrelative:t124092025\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{146C4ED1-094D-4957-9DA5-C7DA459323E7}|T124092025\\T124092025.csproj|c:\\users\\fabri_moiv2az\\downloads\\programacionpracticas\\semana1\\segundointentoconstring\\t124092025\\t124092025\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{146C4ED1-094D-4957-9DA5-C7DA459323E7}|T124092025\\T124092025.csproj|solutionrelative:t124092025\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{146C4ED1-094D-4957-9DA5-C7DA459323E7}|T124092025\\T124092025.csproj|c:\\users\\fabri_moiv2az\\downloads\\t124092025\\t124092025\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{146C4ED1-094D-4957-9DA5-C7DA459323E7}|T124092025\\T124092025.csproj|solutionrelative:t124092025\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +34,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Nodo.cs",
+              "DocumentMoniker": "C:\\Users\\fabri_moiv2az\\Downloads\\T124092025\\T124092025\\Nodo.cs",
+              "RelativeDocumentMoniker": "T124092025\\Nodo.cs",
+              "ToolTip": "C:\\Users\\fabri_moiv2az\\Downloads\\T124092025\\T124092025\\Nodo.cs",
+              "RelativeToolTip": "T124092025\\Nodo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:52:38.978Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Nodo.cs",
-              "DocumentMoniker": "C:\\Users\\fabri_moiv2az\\Downloads\\ProgramacionPracticas\\Semana1\\SegundoIntentoConString\\T124092025\\T124092025\\Nodo.cs",
-              "RelativeDocumentMoniker": "T124092025\\Nodo.cs",
-              "ToolTip": "C:\\Users\\fabri_moiv2az\\Downloads\\ProgramacionPracticas\\Semana1\\SegundoIntentoConString\\T124092025\\T124092025\\Nodo.cs",
-              "RelativeToolTip": "T124092025\\Nodo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T22:38:29.744Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\fabri_moiv2az\\Downloads\\ProgramacionPracticas\\Semana1\\SegundoIntentoConString\\T124092025\\T124092025\\Form1.cs",
-              "RelativeDocumentMoniker": "T124092025\\Form1.cs",
-              "ToolTip": "C:\\Users\\fabri_moiv2az\\Downloads\\ProgramacionPracticas\\Semana1\\SegundoIntentoConString\\T124092025\\T124092025\\Form1.cs*",
-              "RelativeToolTip": "T124092025\\Form1.cs*",
-              "ViewState": "AgIAACgAAAAAAAAAAAApwDUAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T22:51:22.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Lista.cs",
-              "DocumentMoniker": "C:\\Users\\fabri_moiv2az\\Downloads\\ProgramacionPracticas\\Semana1\\SegundoIntentoConString\\T124092025\\T124092025\\Lista.cs",
+              "DocumentMoniker": "C:\\Users\\fabri_moiv2az\\Downloads\\T124092025\\T124092025\\Lista.cs",
               "RelativeDocumentMoniker": "T124092025\\Lista.cs",
-              "ToolTip": "C:\\Users\\fabri_moiv2az\\Downloads\\ProgramacionPracticas\\Semana1\\SegundoIntentoConString\\T124092025\\T124092025\\Lista.cs",
+              "ToolTip": "C:\\Users\\fabri_moiv2az\\Downloads\\T124092025\\T124092025\\Lista.cs",
               "RelativeToolTip": "T124092025\\Lista.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAkwIQAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwAsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T22:40:35.076Z",
+              "WhenOpened": "2025-09-24T05:50:29.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\fabri_moiv2az\\Downloads\\T124092025\\T124092025\\Form1.cs",
+              "RelativeDocumentMoniker": "T124092025\\Form1.cs",
+              "ToolTip": "C:\\Users\\fabri_moiv2az\\Downloads\\T124092025\\T124092025\\Form1.cs",
+              "RelativeToolTip": "T124092025\\Form1.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T00:26:50.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\fabri_moiv2az\\Downloads\\ProgramacionPracticas\\Semana1\\SegundoIntentoConString\\T124092025\\T124092025\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\fabri_moiv2az\\Downloads\\T124092025\\T124092025\\Form1.cs",
               "RelativeDocumentMoniker": "T124092025\\Form1.cs",
-              "ToolTip": "C:\\Users\\fabri_moiv2az\\Downloads\\ProgramacionPracticas\\Semana1\\SegundoIntentoConString\\T124092025\\T124092025\\Form1.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "T124092025\\Form1.cs [Dise\u00F1o]*",
+              "ToolTip": "C:\\Users\\fabri_moiv2az\\Downloads\\T124092025\\T124092025\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "T124092025\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-22T22:29:32.531Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClaseDoble.cs",
+              "DocumentMoniker": "C:\\Users\\fabri_moiv2az\\Downloads\\T124092025\\T124092025\\ClaseDoble.cs",
+              "RelativeDocumentMoniker": "T124092025\\ClaseDoble.cs",
+              "ToolTip": "C:\\Users\\fabri_moiv2az\\Downloads\\T124092025\\T124092025\\ClaseDoble.cs",
+              "RelativeToolTip": "T124092025\\ClaseDoble.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T23:09:51.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NodoDoble.cs",
+              "DocumentMoniker": "C:\\Users\\fabri_moiv2az\\Downloads\\T124092025\\T124092025\\NodoDoble.cs",
+              "RelativeDocumentMoniker": "T124092025\\NodoDoble.cs",
+              "ToolTip": "C:\\Users\\fabri_moiv2az\\Downloads\\T124092025\\T124092025\\NodoDoble.cs",
+              "RelativeToolTip": "T124092025\\NodoDoble.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T23:09:29.46Z",
+              "EditorCaption": ""
             }
           ]
         }

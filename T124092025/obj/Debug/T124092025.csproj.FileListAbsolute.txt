@@ -8,3 +8,13 @@ C:\Users\fabri_moiv2az\Downloads\ProgramacionPracticas\Semana1\SegundoIntentoCon
 C:\Users\fabri_moiv2az\Downloads\ProgramacionPracticas\Semana1\SegundoIntentoConString\T124092025\T124092025\obj\Debug\T124092025.csproj.CoreCompileInputs.cache
 C:\Users\fabri_moiv2az\Downloads\ProgramacionPracticas\Semana1\SegundoIntentoConString\T124092025\T124092025\obj\Debug\T124092025.exe
 C:\Users\fabri_moiv2az\Downloads\ProgramacionPracticas\Semana1\SegundoIntentoConString\T124092025\T124092025\obj\Debug\T124092025.pdb
+C:\Users\fabri_moiv2az\Downloads\T124092025\T124092025\bin\Debug\T124092025.exe.config
+C:\Users\fabri_moiv2az\Downloads\T124092025\T124092025\bin\Debug\T124092025.exe
+C:\Users\fabri_moiv2az\Downloads\T124092025\T124092025\bin\Debug\T124092025.pdb
+C:\Users\fabri_moiv2az\Downloads\T124092025\T124092025\obj\Debug\T124092025.csproj.AssemblyReference.cache
+C:\Users\fabri_moiv2az\Downloads\T124092025\T124092025\obj\Debug\T124092025.Form1.resources
+C:\Users\fabri_moiv2az\Downloads\T124092025\T124092025\obj\Debug\T124092025.Properties.Resources.resources
+C:\Users\fabri_moiv2az\Downloads\T124092025\T124092025\obj\Debug\T124092025.csproj.GenerateResource.cache
+C:\Users\fabri_moiv2az\Downloads\T124092025\T124092025\obj\Debug\T124092025.csproj.CoreCompileInputs.cache
+C:\Users\fabri_moiv2az\Downloads\T124092025\T124092025\obj\Debug\T124092025.exe
+C:\Users\fabri_moiv2az\Downloads\T124092025\T124092025\obj\Debug\T124092025.pdb
